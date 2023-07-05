@@ -6,6 +6,9 @@
   "scripts": {
     "server": "nodemon index"
   },
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "testEnviroment": "node",
   "keywords": [],
   "author": "",
@@ -16,7 +19,7 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
-    "mongodb": "^5.5.0",
+    "mongodb": "^5.6.0",
     "nodemailer": "^6.9.3",
     "nodemon": "^2.0.22",
     "otp-generator": "^4.0.1",
